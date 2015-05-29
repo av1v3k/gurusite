@@ -1,3 +1,17 @@
 .top-m{
 	padding-top:50px;
 }
+.carousel-margin-top{
+	margin-top:2px;
+}
+.foot{
+	position:absolute;
+	bottom:0px;
+	width:100%;
+	background-color:#39424e;
+	color:#FFF;
+	height:60px;
+}
+.foot-company{
+	margin-top:15px;
+}
