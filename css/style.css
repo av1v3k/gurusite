@@ -1,17 +1,36 @@
-.top-m{
-	padding-top:50px;
-}
-.carousel-margin-top{
-	margin-top:2px;
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
 }
 .foot{
 	position:absolute;
 	bottom:0px;
 	width:100%;
-	background-color:#39424e;
-	color:#FFF;
+	background-color:rgba(16, 222, 239, 0.5);
+	border-radius: 4px;
+	color:#000;
 	height:60px;
 }
 .foot-company{
 	margin-top:15px;
 }
+
+.carousel-inner > .item  > img{
+	height:500px;
+	position:absolute;
+	top:0;
+	left:0;
+	min-width:100%;
+}
+.carousel .item{
+	height:500px;
+}
+
+.carousel{
+	height:500px;
+	margin-bottom:50px;
+}
+
